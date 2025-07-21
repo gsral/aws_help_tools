@@ -23,35 +23,36 @@ A Python script to delete all items from a specified DynamoDB table.
 - Minimizes data transfer by retrieving only the table keys.
 - Supports optional **assume-role** for cross-account operations.
 
----
-
 ### 💻 Usage
 
-#### 1️⃣ Install dependencies
+1️⃣ Install dependencies
 Make sure you have `boto3` installed:
+
 ```bash
 pip install boto3
-
+```
 2️⃣ Set AWS credentials
 
 The script uses your default AWS CLI credentials.
-If you want to assume a different role, uncomment and update the role_arn in the script.
+If you want to assume a different role, uncomment the assume_role section and update the role_arn in the script.
+
 3️⃣ Run the script
-
+```bash
 python truncate_dynamodb.py
-
+```
 Edit the last line in the script to specify your table name:
-
+```bash
 truncateTable('your-dynamodb-table-name')
+```
 
-📌 Roadmap
+## 📌 Roadmap
 
 ✅ DynamoDB Table Truncator
 🔜 S3 Bucket Cleaner
 🔜 CloudWatch Logs Purger
 🔜 IAM Role Checker
-```
 
-#### 🙌 Contributing
+
+## 🙌 Contributing
 
 Feel free to fork the repo, open issues, or submit pull requests with your AWS tools or improvements.
