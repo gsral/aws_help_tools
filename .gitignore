@@ -1,0 +1,12 @@
+# Ignorar volumes/dados locais
+*.pid
+*.opts
+*.log
+
+# Arquivos sensíveis
+.env
+
+# Arquivos temporários
+*.swp
+*.tmp
+
