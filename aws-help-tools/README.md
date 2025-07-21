@@ -18,7 +18,7 @@ This toolbox provides **ready-to-use scripts** that help automate common tasks l
 
 A Python script to delete all items from a specified DynamoDB table.
 
-# 📝 Features:
+### 📝 Features:
 - Deletes all records in batches for efficiency.
 - Minimizes data transfer by retrieving only the table keys.
 - Supports optional **assume-role** for cross-account operations.
