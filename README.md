@@ -52,6 +52,7 @@ truncateTable('your-dynamodb-table-name')
 🔜 CloudWatch Logs Purger
 🔜 IAM Role Checker
 
+---
 
 ## 🙌 Contributing
 
